@@ -16,11 +16,14 @@ class Details extends Component {
     this.setState({ character: character[0] });
   }
   render() {
-    const { name } = this.state.character;
+    const { name, birthday, img, status } = this.state.character;
     return (
       <>
         <h1>{name}</h1>
-        
+        <p>{status}</p>
+        <h3>Birthday</h3>
+        <p>{birthday}</p>
+        <img src={img} alt={name}/>
       </>
     );
   }
