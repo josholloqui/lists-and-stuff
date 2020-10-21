@@ -20,6 +20,7 @@ class Details extends Component {
     return (
       <>
         <h1>{name}</h1>
+        
       </>
     );
   }

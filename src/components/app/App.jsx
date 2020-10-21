@@ -1,9 +1,9 @@
 import React from 'react';
+import '@babel/polyfill';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import List from '../list/List';
 import Details from '../details/Details';
